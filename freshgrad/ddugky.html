@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+  <title>DDUGKY</title>
+  <style>
+
+       #main{
+            background-color: black;
+            width: 10%;
+            margin-right: 70%;
+            }
+       #main a{
+              font-size: 100%;
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 20px 20px;
+              text-decoration: none;
+              }
+    #main a:hover{
+                 background-color: #00d48a;
+                 }
+  .clearfix::after{
+                  content: "";
+                  clear: both;
+                  display: table;
+                  }
+.b11 button{
+           position: absolute;
+           top: 40px;
+           left: 400px;
+           width: 90px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           background-color:white;
+           border-radius: 20%;
+           }
+.b11 button:hover{
+                 background-color:lightgreen;
+                 }
+ .b12 button{
+            position: absolute;
+            top: 40px;
+            left: 500px;
+            width: 90px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color:white;
+            border-radius: 20%;
+            }
+.b12 button:hover{
+                 background-color:#00d48a;
+                 }
+.ex select{
+          position: absolute;
+          top: 40px;
+          left: 1100px;
+          width: 100px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background-color:lightgreen;
+          }
+
+      .add select{
+                 position: absolute;
+                 top: 40px;
+                 left: 1240px;
+                 width: 100px;
+                 padding-top: 10px;
+                 padding-bottom: 10px;
+                 background-color:lightgreen;
+                 }
+.column{
+       float: left;
+       }
+.quick{
+      position: absolute;
+      margin-left: 27%;
+      margin-top: 6%;
+      }
+.b13 button{
+           position: absolute;
+           top: 170px;
+           left: 400px;
+           width: 300px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           background-color:white;
+           text-align: center;
+           border-radius: 8%;
+           }
+.b14 button{
+           position: absolute;
+           top: 170px;
+           left: 720px;
+           width: 300px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           background-color:white;
+           text-align: center;
+           border-radius: 10%;
+           }
+.b15 button{
+           position: absolute;
+           top: 170px;
+           left: 1040px;
+           width: 300px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           background-color:white;
+           text-align: center;
+           border-radius: 10%;
+           }
+.b16 button{
+           position: absolute;
+           top: 220px;
+           left: 400px;
+           width: 150px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           background-color:white;
+           text-align: left;
+           }
+.entry{
+      position: absolute;
+      top: 220px;
+      right: 10%;
+      }
+.next{
+     position: absolute;
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-family: "Ubuntu",sans-serif;
+     font-weight: 100px;
+     text-align: left;
+     margin-top: 260px;
+     margin-left: 26%;
+     margin-right: 10%;
+     }
+.active{
+       background-color: #00d48a;
+       }
+table {
+      border: -2px solid black;
+      }
+tr{
+  outline:1px solid black;
+  }
+table td{
+        padding-top: : 25px;
+        padding-bottom: 25px;
+        }
+table th{
+        padding-top: : 25px;
+        padding-bottom: 25px;
+        }
+</style>
+       </head>
+           <!--starts of body-->
+           <body>
+               <!--starts of form-->
+               <form action="user.html" method="get">
+                     <div class="clearfix">
+                         <div class="column menu" id="main" style="width:23% ">
+                              <img src="freshgrad.jpg" alt="freshgrad" width="100%"/>
+                              <a href="#">Announcement</a>
+                              <a href="#" class="active">User Management</a>
+                              <a href="#">Training</a>
+                              <a href="#">Assessment</a>
+                              <a href="#">Jobs Board</a>
+                              <a href="#">Calender</a>
+                              <br><br><br><br><br><br><br><br>
+                              <br><br>
+                        </div>
+                        <div class="b11">
+                              <button type="button" name="button">Student</button>
+                        </div>
+                        <div class="b12">
+                              <button type="button" name="button">Admins</button>
+                        </div>
+                        <div class="ex">
+                            <!--starts of select tag-->
+                            <select name="export">
+                                <option value="add">Export users</option>
+                            </select>
+                            <!--ends of select tag-->
+                        </div>
+                        <div class="add">
+                            <!--starts of select tag-->
+                            <select name="add">
+                                <option value="add">Add users</option>
+                            </select>
+                            <!--ends of select tag-->
+                        </div>
+                        <div class="quick">
+                            <h2>Quick Actions</h2>
+                        </div>
+                        <div class="b13">
+                            <button type="button" name="button">Student Groups</button>
+                        <div>
+                        <div class="b14">
+                            <button type="button" name="button">Document Verification</button>
+                        </div>
+                        <div class="b15">
+                            <button type="button" name="button">Attributes</button>
+                        </div>
+                        <div class="b16">
+                            <button type="button" name="button">Search.....</button>
+                        </div>
+                        <div class="entry">
+                            <p>show<!--starts of select tag--><select name="num">
+                                           <option value="10">10</option>
+                                           <option value="9">9</option>
+                                           <option value="8">8</option>
+                                           <option value="7">7</option>
+                                           <option value="6">6</option>
+                                       </select><!--ends of select tag-->entries</p>
+                        </div>
+                        <div class="next">
+                             <!--starts of table-->
+                             <table>
+                                 <tr><th style="width:13%">Student Name</th>
+                                     <th style="width:9%">Student ID</th><th style="width: 6%">Batch</th><th style="width:20%">Department</th><th style="width:6%">Degree</th>
+                                 </tr>
+                                 <tr><td ><input type="checkbox" name="table" value="Student Name"/>Binsiya Binu</td>
+                                    <td >PGK112</td><td >1</td><td>Computer Science & Engineering</td><td>Btech</td>
+                                 </tr>
+                                 <tr><td><input type="checkbox" name="table" value="Student Name"/>Archana P.S</td>
+                                     <td>PGK115</td><td>1</td><td>Computer Science & Engineering</td><td>Btech</td>
+                                 </tr>
+                                 <tr><td><input type="checkbox" name="table" value="Student Name"/>Remya P.R</td>
+                                     <td>PGK116</td><td>1</td><td>Computer Science & Engineering</td><td>Btech</td>
+                                 </tr>
+                                 <tr><td><input type="checkbox" name="table" value="Student Name"/>Tomsy Sebastian</td>
+                                     <td>PGK117</td><td>1</td><td>Computer Science & Engineering</td><td>BSC</td>
+                                 </tr>
+                                 <tr><td><input type="checkbox" name="table" value="Student Name"/>Fazeela P</td>
+                                     <td>PGK118</td><td>1</td><td>Computer Science & Engineering</td><td>Btech</td>
+                                 </tr>
+                                 <tr><td><input type="checkbox" name="table" value="Student Name"/>Siju Mon P.K</td>
+                                     <td>PGK119</td><td>2</td><td>Computer Science & Engineering</td><td>Btech</td>
+                                 </tr>
+                                 <tr><td><input type="checkbox" name="table" value="Student Name"/>Sibin C.B</td>
+                                     <td>PGK120</td><td>1</td><td>Electronic's & Communication Engineering</td><td>Btech</td>
+                                 </tr>
+                                 <tr><td><input type="checkbox" name="table" value="Student Name"/>Husbil</td>
+                                     <td>PGK121</td><td>1</td><td>Electronic's & Communication Engineering</td><td>Btech</td>
+                                 </tr>
+                                 <tr><td><input type="checkbox" name="table" value="Student Name"/>Akhila C.M</td>
+                                     <td>PGK122</td><td>1</td><td>Electronic's & Communication Engineering</td><td>Btech</td>
+                                 </tr>
+                             </table>
+                             <!--ends of table-->
+                        </div>
+                   </div>
+            </form>
+            <!--ends of form-->
+       </body>
+       <!--ends of body-->
+  </html>

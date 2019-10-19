@@ -1,0 +1,51 @@
+
+           body{
+               background-image: url("../background.svg.svg");
+               background-repeat:no-repeat;
+               background-size: 150% 120%;
+               background-attachment: fixed;
+               }
+             h1{
+               margin-top: 80px;
+               margin-left: 200px;
+               font-family: 'Ubuntu',sans-serif;
+               font-weight: lighter;
+               }
+          .main{
+               width: 25%;
+               height: 40%;
+               margin-top: 80px;
+               margin-bottom: 150px;
+               margin-left: 130px;
+               border-radius: 70px ;
+               font-family: 'Ubuntu',sans-serif;
+               }
+      .username{
+               width:90%;
+               margin-left: 18%;
+               height: 10%;
+               border-radius: 10%;
+               border:1px solid rgba(0, 0, 0, 0.14);
+               box-sizing: border-box;
+               padding-top: 20px;
+               padding-bottom: 20px;
+               padding-left: 10px;
+               padding-right: 10px;
+               font-family: 'Ubuntu',sans-serif;
+               }
+              a{
+               margin-left: 20%;
+               }
+        .submit{
+               width:40%;
+               text-align: center;
+               box-sizing: border-box;
+               margin-left: 20%;
+               padding-top: 20px;
+               padding-bottom: 20px;
+               }
+          .sign{
+               font-size: 30px;
+               font-weight: normal;
+               font-family: 'Ubuntu',sans-serif;
+               }
